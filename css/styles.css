@@ -2,8 +2,24 @@ body {font-family: "Roboto",
     sans-serif;
     color: #434455;
     background-color: #FFFFFF}
-ul {list-style-type: none;}
+
+ul, ol {list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;}
+
 a {text-decoration: none;}
+
+p h1,h2,h3,h4,h5,h6 {margin-top: 0; 
+    margin-bottom: 0;}
+button {
+    cursor: pointer;}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /*--------------header----------------*/
 .header-logo {font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -11,7 +27,8 @@ a {text-decoration: none;}
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;}
+    color: #4D5AE5;
+margin-right: 76px;}
 .header-logo-color {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,6 +38,16 @@ a {text-decoration: none;}
     text-transform: uppercase;
     color: #2e2f42;
 }
+.heade-navigation {display: flex;
+align-items: center;
+flex-grow: 1;
+margin-right: 332px;}
+.header-list {display: flex;
+gap: 40px;}
+.header-address-list {display: flex;
+gap: 40px;}
+.header-container {display: flex;
+align-items: center;}
 .header-list-link {font-weight: 500;
     font-size: 16px;
     line-height: 150%;
