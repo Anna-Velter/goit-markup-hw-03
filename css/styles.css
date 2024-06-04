@@ -18,9 +18,13 @@ button {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 /*--------------header----------------*/
+.header {padding-top: 24px;
+padding-bottom: 24px;}
+
 .header-logo {font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -67,6 +71,7 @@ address {font-style: normal;
 
 /*--------------hero----------------*/
 .hero {background-color: #2E2F42;}
+.hero-container { padding: 188px 472px;}
 .hero-title {font-weight: 700;
     font-size: 56px;
     line-height: 107%;
