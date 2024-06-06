@@ -10,7 +10,7 @@ padding-left: 0;}
 
 a {text-decoration: none;}
 
-p h1,h2,h3,h4,h5,h6 {margin-top: 0; 
+p,h1,h2,h3,h4,h5,h6 {margin-top: 0; 
     margin-bottom: 0;}
 
 button {
@@ -101,7 +101,10 @@ address {font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    max-width: 496px;}
+    max-width: 496px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;}
 
 .hero-button {font-weight: 500;
     font-size: 16px;
